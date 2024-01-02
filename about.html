@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Alignmentaj</title>
+    <link rel="stylesheet" href="static/styles/about.css">
+    <link rel="icon" href="static/images/iconic.png">
+</head>
+
+<body>
+
+    <body>
+        <div class='navbar'>
+            <div class="nav-list">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Alignmentaj</a>
+                <a href="contacts.html">Contacts</a>
+            </div>
+        </div>
+        <div class="text">
+            <p>Alignmentaj tool was created in 2021 in <a href="https://aim.spbu.ru/" target="_blank">Laboratory of the
+                    Mosaic of Autoimmunity</a>.
+                Alignmentaj in the input accepts the amino acid sequences of two proteins.
+            </p>
+            <p>
+                Our tool dissecte the primary amino acid sequences first protein into pentapeptides (if you choose
+                number 5). The obtained pentapeptides are compared to the amino acid
+            </p>
+            <p>
+                sequences of the second protein.
+                In the results, you can see similar peptides in the proteins analyzed. For example:
+            </p>
+            <div class="sequences">
+                <p class="input">Input 1</p>
+                <p>
+                    >sp|Q01455|VME1_CVHOC Membrane protein OS=Human coronavirus OC43 OX=31631 GN=M PE=1 SV=1
+                </p>
+                <p>
+                    MSSKTTPAPVYIWTADEAIKFLKEWNFSLGIILLFITIILQFGYTSRSMFVYVIKMIILW
+                </p>
+                <p>
+                    LMWPLTIILTIFNCVYALNNVYLGLSIVFTIVAIIMWIVYFVNSIRLFIRTGSFWSFNPE
+                </p>
+                <p>
+                    TNNLMCIDMKGTMYVRPIIEDYHTLTVTIIRGHLYIQGIKLGTGYSWADLPAYMTVAKVT
+                </p>
+                <p>
+                    HLCTYKRGFLDRISDTSGFAVYVKSKVGNY<span class="similar">RLPST</span>QKGSGMDTALLRNNI
+                </p>
+                <p class="dis">
+                    Dissecte Input 1:
+                </p>
+                <p>
+                    'MSSKT', 'SSKTT', 'SKTTP', 'KTTPA', 'TTPAP', 'TPAPV', 'PAPVY', 'APVYI'
+                </p>
+                <p>
+                    'PVYIW', 'VYIWT', 'YIWTA', 'IWTAD', 'WTADE', ..., '<span class="similar">RLPST</span>', ...
+                </p>
+                <p class="input">
+                    Input 2
+                </p>
+                <p>
+                    >sp|Q9UNE2|RPH3L_HUMAN Rab effector Noc2 OS=Homo sapiens OX=9606 GN=RPH3AL PE=1 SV=1
+                </p>
+                <p>
+                    MADTIFGSGNDQWVCPNDRQLALRAKLQTGWSVHTYQTEKQRRKQHLSPAEVEAILQVIQ
+                </p>
+                <p>
+                    RAERLDVLEQQRIGRLVERLETMRRNVMGNGLSQCLLCGEVLGFLGSSSVFCKDCRKKVC
+                </p>
+                <p>
+                    TKCGIEASPGQKRPLWLCKICSEQREVWKRSGAWFYKGLPKYILPLKTPGRADDPHFRPL
+                </p>
+                <p>
+                    PTEPAEREPRSSETSRIYTWARGRVVSSDSDSDSDLSSSSLED<span class="similar">RLPST</span>GVRDRKGDKPWK
+                </p>
+                <p>
+                    ESGGSVEAPRMGFTHPPGHLSGCQSSLASGETGTGSADPPGGPRPGLTRRAPVKDTPGRA
+                </p>
+                <p>
+                    PAADAAPAGPSSCLG
+                </p>
+                <p class="result">
+                    Results
+                </p>
+                <p>
+                    RLPST
+                </p>
+            </div>
+
+            <p class="text">Similar peptides analysis to be an essential step in the preliminary evaluation of
+                autoimmunity risks.
+            </p>
+            <p class="text">
+                Additionally, it may be useful in epitope selection for elaboration of the safest
+                vaccines.
+            </p>
+        </div>
+        <p>
+            Certificate of State registration of the program
+        </p>
+        <div>
+            <img src="static/images/new.jpg" alt="Certificate" width="700">
+        </div>
+
+        <p>
+            Funding
+        </p>
+        <p>
+            The work was supported by the grant of the Russian Science Foundation, N° 22-15-00113, <a href="https://rscf.ru/project/22-15-00113/" target="_blank">https://rscf.ru/project/22-15-00113/</a> accessed on 13 May 2022.
+        </p>
+
+    </body>
+
+
+</html>

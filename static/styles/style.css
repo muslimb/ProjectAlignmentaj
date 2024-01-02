@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+}
+p {
+    font-family: 'Alfa Slab One', serif;
+   
+}
+
+
+.navbar {
+    display: flex;
+    background-color: #6ef770;
+}
+
+.nav-list {
+    font-family: 'DM Serif Display', serif;
+    display: flex;
+}
+
+.nav-list a {
+    font-family: 'DM Serif Display', serif;
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+    color: rgb(42, 48, 42);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-list a:hover {
+    background-color: rgb(236, 227, 227);
+}
+
+
+.image {
+    height: 70vh;
+    width: 100%;
+    position: relative;
+}
+
+.ikal {
+    position: relative;
+    text-align: center;
+    color: rgb(150, 11, 11);
+}
+
+img {
+    width: 1571px;
+    border: 6px solid #6ef770;
+}
+
+.centere {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+}
+
+button {
+    border-color: #6ef770;
+    border-width: 8px;
+    font-size: 50px;
+    
+}
+
+a {
+    text-decoration: none;
+}
